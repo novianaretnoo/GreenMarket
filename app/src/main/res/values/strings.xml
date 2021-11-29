@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Green Market</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="rp_7_000_1kg">Rp. 7.000 (1kg)</string>
+    <string name="wortel">Wortel</string>
+    <string name="rp_26_000_1kg">Rp. 26.000 (1kg)</string>
+    <string name="cabe_merah">Cabe Merah</string>
+    <string name="rp_15_000_1kg">Rp. 15.000 (1kg)</string>
+    <string name="bayam">Bayam</string>
+    <string name="rp_18_000_1kg">Rp. 18.000 (1kg)</string>
+    <string name="ubi_ungu">Ubi Ungu</string>
+    <string name="rp_3_000_1kg">Rp. 3.000 (1kg)</string>
+    <string name="rp_11_000_1kg">Rp. 11.000 (1kg)</string>
+    <string name="rp_27_000_1kg">Rp. 27.000 (1kg)</string>
+    <string name="explore">Explore</string>
+    <string name="rp_20_000_1kg">Rp. 20.000 (1kg)</string>
+    <string name="buncis">Buncis</string>
+    <string name="bawang_merah">Bawang Merah</string>
+    <string name="rp_25_000_1kg">Rp. 25.000 (1kg)</string>
+    <string name="jamur">Jamur</string>
+    <string name="pare">Pare</string>
+    <string name="brokoli">Brokoli</string>
+    <string name="kangkung">Kangkung</string>
+    <string name="rp_12_000_1kg">Rp. 12.000 (1kg)</string>
+    <string name="rp_13_000_1kg">Rp. 13.000 (1kg)</string>
+    <string name="tomat">Tomat</string>
+    <string name="pakcoy">Pakcoy</string>
+    <string name="corn">Corn</string>
+    <string name="sweet_corn">Sweet Corn</string>
+    <string name="search_vegetables">Search Vegetables</string>
+    <string name="rp_7000">Rp. 7000</string>
+    <string name="see_all">see all</string>
+    <string name="purwokerto_utara_purwanegara">Purwokerto Utara, Purwanegara</string>
+    <string name="carrot">Carrot</string>
+    <string name="rp_5000">Rp. 5000</string>
+    <string name="favorit_vegetables">Favorit Vegetables</string>
+    <string name="_1kg">(1kg)</string>
+    <string name="fresh_vegetables">Fresh Vegetables</string>
+    <string name="todo">TODO</string>
+    <string name="cabbage">Cabbage</string>
+    <string name="categories">Categories</string>
+    <string name="potato">Potato</string>
+    <string name="lihat_profile"><u>Lihat Profile</u></string>
+
+    <!--  Firebase  -->
+    <string name="webclient_id">146378656118-e6a523fha2rat72uqnipkkcemkjr4h4g.apps.googleusercontent.com</string>
+
+    <!--  Facebook  -->
+    <string name="facebook_app_id">563744538250758</string>
+    <string name="fb_login_protocol_scheme">fb563744538250758</string>
+
+</resources>

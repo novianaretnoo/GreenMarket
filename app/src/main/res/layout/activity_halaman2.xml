@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="1550dp"
+            android:background="@color/purple_500">
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/purple_500"
+                app:srcCompat="@drawable/profile" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/purple_500"
+                app:srcCompat="@drawable/cart" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/purple_500"
+                app:srcCompat="@drawable/explore" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="15sp"
+                android:background="@color/purple_500"
+                app:srcCompat="@drawable/home" />
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="363dp"
+            android:layout_height="51dp"
+            android:background="@drawable/custom_search"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="12dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="24dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="Explore"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.083" />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="345dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="140dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.932"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.299"
+                android:layout_marginStart="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/brokoli"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/brokoli"
+                        android:layout_marginStart="29dp" />
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Brokoli"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 20.000 (1kg)"
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="345dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="215dp"
+                android:layout_marginTop="140dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.932"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.299"
+                android:layout_marginStart="215dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/kangkung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/kangkung"
+                        android:layout_marginStart="29dp" />
+
+                    <TextView
+                        android:id="@+id/kangkungtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="kangkung"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/harga3k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 3.000 (1kg)"
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="575dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="370dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.066"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/buncis"
+                        android:layout_width="159dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/buncis"
+
+                        android:layout_marginStart="12dp" />
+
+                    <TextView
+                        android:id="@+id/buncistext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Buncis"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargabuncis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 13.000 (1kg) "
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="588dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="218dp"
+                android:layout_marginTop="380dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="218dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/tomat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="29dp"
+                        android:layout_marginTop="25dp"
+                        app:srcCompat="@drawable/tomatoes_1"
+                        android:layout_marginStart="29dp"/>
+
+
+                    <TextView
+                        android:id="@+id/tomattext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="36dp"
+                        android:text="Tomat"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargatomat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 11.000 (1kg)"
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="812dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="600dp"
+                app:cardCornerRadius="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.068"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.889"
+                android:layout_marginStart="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/pakcoy"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/pakcoy"
+                        android:layout_marginStart="27dp" />
+
+                    <TextView
+                        android:id="@+id/pakcoytext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Pakcoy"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargapakcoy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 12.000 (1kg)"
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="840dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="218dp"
+                android:layout_marginTop="630dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="218dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/pare"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/pare"
+                        android:layout_marginStart="27dp" />
+
+                    <TextView
+                        android:id="@+id/paretext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Pare"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargapare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 26.000 (1kg) "
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="1037dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="830dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/jamur"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/jamur"
+                        android:layout_marginStart="27dp" />
+
+                    <TextView
+                        android:id="@+id/jamurtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Jamur"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargajamur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 25.000 (1kg) "
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="1068dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="221dp"
+                android:layout_marginTop="860dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="221dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/bawangmerah"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/bawang_merah"
+                        android:layout_marginStart="27dp"/>
+
+                    <TextView
+                        android:id="@+id/bawangmerahtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Bawang Merah "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargabawangmerah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 27.000 (1kg) "
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="1266dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1060dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ubiungu"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/ubi_ungu_1"
+                        android:layout_marginStart="27dp"/>
+
+                    <TextView
+                        android:id="@+id/ubiungutext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Ubi Ungu"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargaubiungu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 7.000 (1kg)"
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="1308dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="221dp"
+                android:layout_marginLeft="221dp"
+                android:layout_marginTop="1100dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/cabemerah"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="27dp"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/cabai_merah_4" />
+
+                    <TextView
+                        android:id="@+id/cabemerahtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Cabe Merah"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hargacabemerah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 12.000 (1kg)"
+                        android:textSize="12sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="125dp"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="1508dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1300dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825"
+                android:layout_marginStart="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/bayam"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/bayam_2"
+                        android:layout_marginStart="27dp" />
+
+                    <TextView
+                        android:id="@+id/bayamtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Bayam"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="15sp" />
+
+                    <TextView
+                        android:id="@+id/hargabayam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 15.000 (1kg)"
+                        android:textSize="12sp"
+                        android:layout_marginStart="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+                        app:srcCompat="@drawable/resource__"
+                        android:layout_marginStart="125dp"></ImageButton>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="221dp"
+                android:layout_marginLeft="221dp"
+                android:layout_marginTop="1330dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#FFFF"
+                app:cardCornerRadius="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/navigasi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.933"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/wortel"
+                        android:layout_width="141dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="27dp"
+                        android:layout_marginLeft="27dp"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/wortel_1" />
+
+                    <TextView
+                        android:id="@+id/worteltext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="13dp"
+                        android:text="Wortel"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hargawortel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15sp"
+                        android:layout_marginLeft="15sp"
+                        android:layout_marginTop="4dp"
+                        android:text="Rp. 7.000 (1kg)"
+                        android:textSize="12sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="125dp"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="-34dp"
+                        android:background="@color/white"
+
+                        app:srcCompat="@drawable/resource__" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </RelativeLayout>
+</ScrollView>
+
+
+
